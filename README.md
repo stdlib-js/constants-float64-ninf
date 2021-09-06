@@ -74,6 +74,24 @@ console.log( FLOAT64_NINF );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/float16/ninf`][@stdlib/constants/float16/ninf]: half-precision floating-point negative infinity.
+-   [`@stdlib/constants/float32/ninf`][@stdlib/constants/float32/ninf]: single-precision floating-point negative infinity.
+-   [`@stdlib/constants/float64/pinf`][@stdlib/constants/float64/pinf]: positive infinity.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -130,6 +148,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ninf/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/constants/float16/ninf]: https://github.com/stdlib-js/constants-float16-ninf
+
+[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf
+
+[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf
+
+<!-- </related-links> -->
 
 </section>
 
