@@ -20,7 +20,7 @@ limitations under the License.
 
 # Negative Infinity
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Double-precision floating-point][ieee754] negative infinity.
 
@@ -82,9 +82,9 @@ console.log( FLOAT64_NINF );
 
 ## See Also
 
--   [`@stdlib/constants/float16/ninf`][@stdlib/constants/float16/ninf]: half-precision floating-point negative infinity.
--   [`@stdlib/constants/float32/ninf`][@stdlib/constants/float32/ninf]: single-precision floating-point negative infinity.
--   [`@stdlib/constants/float64/pinf`][@stdlib/constants/float64/pinf]: positive infinity.
+-   <span class="package-name">[`@stdlib/constants/float16/ninf`][@stdlib/constants/float16/ninf]</span><span class="delimiter">: </span><span class="description">half-precision floating-point negative infinity.</span>
+-   <span class="package-name">[`@stdlib/constants/float32/ninf`][@stdlib/constants/float32/ninf]</span><span class="delimiter">: </span><span class="description">single-precision floating-point negative infinity.</span>
+-   <span class="package-name">[`@stdlib/constants/float64/pinf`][@stdlib/constants/float64/pinf]</span><span class="delimiter">: </span><span class="description">positive infinity.</span>
 
 </section>
 
@@ -135,8 +135,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-ninf/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-ninf?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float64-ninf.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float64-ninf/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
