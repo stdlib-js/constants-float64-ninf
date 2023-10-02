@@ -35,43 +35,30 @@ limitations under the License.
 
 > [Double-precision floating-point][ieee754] negative infinity.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-ninf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT64_NINF = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ninf@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-ninf/tags). For example,
-
-```javascript
-FLOAT64_NINF = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ninf@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT64_NINF = require( 'path/to/vendor/umd/constants-float64-ninf/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ninf@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT64_NINF;
-})();
-</script>
+var FLOAT64_NINF = require( '@stdlib/constants-float64-ninf' );
 ```
 
 #### FLOAT64_NINF
@@ -95,21 +82,11 @@ var bool = ( FLOAT64_NINF === -Infinity );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ninf@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT64_NINF = require( '@stdlib/constants-float64-ninf' );
 
 console.log( FLOAT64_NINF );
 // => -Infinity
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -118,7 +95,57 @@ console.log( FLOAT64_NINF );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/ninf.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_NINF
+
+Macro for [double-precision floating-point][ieee754] negative infinity.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -175,8 +202,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float64-ninf.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float64-ninf
 
-[test-image]: https://github.com/stdlib-js/constants-float64-ninf/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/constants-float64-ninf/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/constants-float64-ninf/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-float64-ninf/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-ninf/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-ninf?branch=main
@@ -209,11 +236,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float16/ninf]: https://github.com/stdlib-js/constants-float16-ninf/tree/umd
+[@stdlib/constants/float16/ninf]: https://github.com/stdlib-js/constants-float16-ninf
 
-[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf/tree/umd
+[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf
 
-[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf/tree/umd
+[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf
 
 <!-- </related-links> -->
 
