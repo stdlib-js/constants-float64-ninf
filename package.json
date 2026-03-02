@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/number-ctor": "^0.2.3",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
