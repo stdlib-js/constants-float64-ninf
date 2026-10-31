@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-18)
+## Unreleased (2026-10-31)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4610233`](https://github.com/stdlib-js/stdlib/commit/46102338dc4b490af0e03c7698d44f0f2e87eb6e) - **chore:** fix lint errors [(#16385)](https://github.com/stdlib-js/stdlib/pull/16385) _(by Philipp Burckhardt)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
 
 </details>
